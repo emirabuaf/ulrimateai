@@ -1,0 +1,8 @@
+body {
+  background: aliceblue;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}

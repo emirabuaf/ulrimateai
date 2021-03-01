@@ -1,0 +1,91 @@
+.container {
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+  width: 420px;
+  overflow: auto;
+  background: radial-gradient(
+      farthest-side at 40% 100%,
+      rgba(87, 229, 197, 0.3),
+      transparent
+    ),
+    radial-gradient(
+      farthest-side at top right,
+      rgba(106, 139, 235, 0.5),
+      transparent
+    ),
+    radial-gradient(farthest-side at top left, #fff, transparent);
+}
+
+.main-intent-container {
+  border-top: 1px solid white;
+}
+
+.intent-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  border-bottom: 1px solid white;
+  justify-content: center;
+}
+.header h1 {
+  text-align: center;
+}
+
+.intent {
+  max-width: 200px;
+  width: 100%;
+}
+.name {
+  margin-bottom: 0;
+}
+.description {
+  font-size: 12px;
+  margin-top: 0;
+  max-width: 160px;
+  width: 100%;
+}
+
+.user-response {
+  max-width: 200px;
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.response-container {
+  background-color: #34b7f1;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.response-text {
+  color: #fff;
+}
+
+.select-title {
+  display: flex;
+  font-size: 13px;
+  margin-top: 0;
+  justify-content: flex-end;
+}
+
+.select-all-input {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
