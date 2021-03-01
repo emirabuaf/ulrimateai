@@ -44,7 +44,6 @@ const List = (props) => {
       Object.keys(current).forEach((key) => {
         nextIsChecked[key] = allChecked;
       });
-
       return nextIsChecked;
     });
   }, [allChecked]);
