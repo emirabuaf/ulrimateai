@@ -12,6 +12,8 @@ const List = (props) => {
     setValue(event.target.value);
   };
 
+  console.log(isChecked);
+
   const handleClick = (id) => {
     selectId(id);
     setValue("");
